@@ -70,7 +70,11 @@
             </div>
           </div>
           <div class="col-md-7">
-            <form action="mailto:AmericanstarDS@gmail.com" method="post" enctype="text/plain">
+            <!-- Integrate with Formsubmit to securely send form submissions via email -->
+            <form action="https://formsubmit.co/AmericanstarDS@gmail.com" method="POST">
+              <!-- Hidden fields to set email subject and redirect URL after submission -->
+              <input type="hidden" name="_subject" value="New Contact Form Submission" />
+              <input type="hidden" name="_next" value="thanks.html" />
               <div class="row g-3">
                 <div class="col-md-6">
                   <label for="firstName" class="form-label">First Name</label>
