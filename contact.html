@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | American Star Driving School</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <!-- Bootstrap Icons for simple icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">American Star Driving School</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="permit.html">Permit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="mt-5 pt-4">
+    <!-- Contact Section -->
+    <section class="py-5" style="background-color: #f0dcc5;">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col-md-5 mb-4">
+            <h2 class="fw-bold mb-4">Contact us</h2>
+            <p class="mb-3"><i class="bi bi-geo-alt-fill me-2"></i> New Brunswick, NJ</p>
+            <p class="mb-3"><i class="bi bi-telephone-fill me-2"></i> <a href="tel:+17327831750" class="text-decoration-none text-dark">(732) 783‑1750</a></p>
+            <p class="mb-4"><i class="bi bi-envelope-fill me-2"></i> <a href="mailto:AmericanstarDS@gmail.com" class="text-decoration-none text-dark">AmericanstarDS@gmail.com</a></p>
+            <!-- Social icons -->
+            <div class="d-flex gap-3">
+              <a href="#" class="text-dark"><i class="bi bi-facebook fs-4"></i></a>
+              <a href="#" class="text-dark"><i class="bi bi-twitter fs-4"></i></a>
+              <a href="#" class="text-dark"><i class="bi bi-linkedin fs-4"></i></a>
+              <a href="#" class="text-dark"><i class="bi bi-instagram fs-4"></i></a>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <form action="mailto:AmericanstarDS@gmail.com" method="post" enctype="text/plain">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="firstName" name="First Name" required />
+                </div>
+                <div class="col-md-6">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="lastName" name="Last Name" required />
+                </div>
+                <div class="col-12">
+                  <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="email" name="Email" required />
+                </div>
+                <div class="col-12">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="tel" class="form-control" id="phone" name="Phone" />
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="Message" rows="4"></textarea>
+                </div>
+                <div class="col-12 text-end">
+                  <button type="submit" class="btn btn-dark">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map section -->
+    <section class="border-top">
+      <div class="container-fluid px-0">
+        <iframe
+          src="https://maps.google.com/maps?q=New%20Brunswick%20NJ&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          width="100%"
+          height="350"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- Opening hours -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="fw-bold">Opening Hours</h3>
+            <p class="mb-0">Visit Us</p>
+            <p>Monday – Friday: 9am – 6pm<br />Saturday – Sunday: 10am – 4pm</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-light py-4 border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h6>About</h6>
+          <p class="small">
+            American Star Driving School, where we provide comprehensive
+            driving instruction tailored to your needs.
+          </p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h6>Contact Information</h6>
+          <ul class="list-unstyled small">
+            <li>Email:
+              <a href="mailto:AmericanstarDS@gmail.com">AmericanstarDS@gmail.com</a>
+            </li>
+            <li>Phone: (732) 783‑1750</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h6>Hours</h6>
+          <ul class="list-unstyled small">
+            <li>Monday ‑ Friday: 9 am – 6 pm</li>
+            <li>Saturday ‑ Sunday: 10 am – 4 pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center small">©2023 American Star Driving School</div>
+    </div>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
