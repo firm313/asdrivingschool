@@ -1,0 +1,84 @@
+/* Custom styles for American Star Driving School */
+
+/* Colour palette inspired by the original Wix site */
+:root {
+  --primary-light: #f4e8d4;
+  --primary-dark: #f1d3ad;
+  --accent: #d4b28f;
+  --text-shadow: rgba(0, 0, 0, 0.6);
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+header .carousel-item {
+  height: 75vh;
+  min-height: 400px;
+  background-color: #000;
+  color: white;
+}
+
+header .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  filter: brightness(65%);
+}
+
+header .carousel-caption {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px var(--text-shadow);
+}
+
+section {
+  scroll-margin-top: 80px; /* offset for fixed navbar */
+}
+
+/* Card styling */
+.card {
+  background-color: var(--primary-light);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  color: #333;
+}
+
+.card ul li {
+  margin-bottom: 0.5rem;
+}
+
+.btn-dark {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+  border-color: #333;
+}
+
+footer h6 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+footer ul li + li {
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 767.98px) {
+  header .carousel-caption h1,
+  header .carousel-caption h2 {
+    font-size: 1.75rem;
+  }
+}

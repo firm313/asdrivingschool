@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>American Star Driving School</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">American Star Driving School</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Carousel -->
+  <header id="home" class="mt-5 pt-4">
+    <div
+      id="heroCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <!-- Updated image paths: images moved to repository root -->
+          <img src="slide1.jpg" class="d-block w-100" alt="Driving cones" />
+          <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+            <h1 class="display-5 fw-bold text-shadow">
+              Welcome to American Star Driving School
+            </h1>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <!-- Updated image paths: images moved to repository root -->
+          <img src="slide2.jpg" class="d-block w-100" alt="Driving woman" />
+          <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+            <h1 class="display-6 fw-semibold text-shadow">
+              Learn. Practice. Drive with Confidence.
+            </h1>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h2 class="fw-bold">Services</h2>
+          <p class="lead">
+            Welcome to American Star Driving School, where we provide
+            comprehensive driving instruction tailored to your needs. Our
+            experienced instructors will guide you through classroom
+            learning, hands‑on practice, and real‑world driving experience.
+            Join us today and start your journey towards becoming a skilled
+            and confident driver. Contact us to learn more about our
+            packages and get ready to hit the road with confidence!
+          </p>
+        </div>
+      </div>
+      <!-- Package cards -->
+      <div class="row g-4">
+        <!-- Bronze Package -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Bronze Package</h5>
+              <ul class="small">
+                <li>Total of 3 hours one on one behind the wheel training.</li>
+                <li>One road test at DMV.</li>
+                <li>Pick and return.</li>
+                <li>
+                  Customer must have a valid permit from the NJ DMV. Facial
+                  covering is required.
+                </li>
+                <li>One road test attempt at DMV.</li>
+              </ul>
+              <div class="mt-auto">
+                <p class="h5 fw-bold">$300 + Distance</p>
+                <a href="#contact" class="btn btn-dark mt-2">Enroll Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Silver Package -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Silver Package</h5>
+              <ul class="small">
+                <li>Total of 6 hours behind the wheel training.</li>
+                <li>One road test at DMV.</li>
+                <li>Pick‑up and return.</li>
+                <li>
+                  Each student receives the certificate for insurance;
+                  which helps in lowering insurance costs.
+                </li>
+                <li>Customer must have a valid permit from the NJ DMV.</li>
+              </ul>
+              <div class="mt-auto">
+                <p class="h5 fw-bold">$500 + Distance</p>
+                <a href="#contact" class="btn btn-dark mt-2">Enroll Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Gold Package -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Gold Package</h5>
+              <ul class="small">
+                <li>Total of 10 hrs one on one behind the wheel training.</li>
+                <li>One road test at DMV.</li>
+                <li>Pick‑up and return.</li>
+                <li>
+                  On completion of the course package, a customer receives
+                  the certificate for insurance; which helps in lowering
+                  insurance costs.
+                </li>
+                <li>Customer must have a valid permit from the NJ DMV.</li>
+              </ul>
+              <div class="mt-auto">
+                <p class="h5 fw-bold">$700 + Distance</p>
+                <a href="#contact" class="btn btn-dark mt-2">Enroll Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional lessons -->
+      <div class="row g-4 mt-4">
+        <!-- 2-Hour Lesson -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">2‑Hour Lesson</h5>
+              <ul class="small">
+                <li>Two hours of driving practice.</li>
+                <li>Pick up and return.</li>
+                <li>Available 7 days a week.</li>
+              </ul>
+              <div class="mt-auto">
+                <p class="h5 fw-bold">$130 + Distance</p>
+                <a href="#contact" class="btn btn-dark mt-2">Enroll Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Road Test -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Road Test</h5>
+              <ul class="small">
+                <li>Road test with our vehicle.</li>
+              </ul>
+              <div class="mt-auto">
+                <p class="h5 fw-bold">$130 + Distance</p>
+                <a href="#contact" class="btn btn-dark mt-2">Enroll Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Road Test + Preparation -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Road Test + Preparation</h5>
+              <ul class="small">
+                <li>1 hour practice before road test.</li>
+              </ul>
+              <div class="mt-auto">
+                <p class="h5 fw-bold">$170 + Distance</p>
+                <a href="#contact" class="btn btn-dark mt-2">Enroll Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 text-white" style="background-color: #000">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <h2 class="fw-bold">Get in touch</h2>
+          <p>New Brunswick, NJ, USA</p>
+          <p>
+            <a href="mailto:AmericanstarDS@gmail.com" class="link-light">AmericanstarDS@gmail.com</a>
+          </p>
+          <p>
+            <a href="tel:+17327831750" class="link-light">(732) 783‑1750</a>
+          </p>
+          <a href="tel:+17327831750" class="btn btn-light m-2">Call us</a>
+          <a href="mailto:AmericanstarDS@gmail.com" class="btn btn-outline-light m-2">Email us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h2 class="fw-bold">About American Star Driving School</h2>
+          <h5 class="text-muted">Where students come first</h5>
+          <p>
+            American Star Driving School was created out of a strong passion, a
+            shared vision and a ceaseless commitment to making learning easy
+            and accessible. Since opening in 2023, we’ve had the opportunity
+            to help countless students acquire foundational skills, develop
+            new techniques and confidently move forward in their learning
+            journey.
+          </p>
+          <p>
+            Known as the best driving school in New Jersey, we provide a
+            wide range of courses to support students from all backgrounds and
+            levels. Contact us with questions or to learn more!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-4 border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h6>About</h6>
+          <p class="small">
+            American Star Driving School, where we provide comprehensive
+            driving instruction tailored to your needs.
+          </p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h6>Contact Information</h6>
+          <ul class="list-unstyled small">
+            <li>Email:
+              <a href="mailto:AmericanstarDS@gmail.com">AmericanstarDS@gmail.com</a>
+            </li>
+            <li>Phone: (732) 783‑1750</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h6>Hours</h6>
+          <ul class="list-unstyled small">
+            <li>Monday ‑ Friday: 9 am – 6 pm</li>
+            <li>Saturday ‑ Sunday: 10 am – 4 pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center small">©2023 American Star Driving School</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
